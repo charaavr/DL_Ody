@@ -1,0 +1,39 @@
+creating index...
+index created!
+Test:  [  0/240]  eta: 0:04:20  model_time: 0.3894 (0.3894)  evaluator_time: 0.1399 (0.1399)  time: 1.0844  data: 0.5456  max mem: 3079
+Test:  [100/240]  eta: 0:00:38  model_time: 0.1479 (0.1487)  evaluator_time: 0.1056 (0.1026)  time: 0.2763  data: 0.0057  max mem: 3079
+Test:  [200/240]  eta: 0:00:10  model_time: 0.1405 (0.1462)  evaluator_time: 0.0918 (0.1025)  time: 0.2460  data: 0.0058  max mem: 3079
+Test:  [239/240]  eta: 0:00:00  model_time: 0.1353 (0.1459)  evaluator_time: 0.0916 (0.1029)  time: 0.2458  data: 0.0055  max mem: 3079
+Test: Total time: 0:01:04 (0.2669 s / it)
+Averaged stats: model_time: 0.1353 (0.1459)  evaluator_time: 0.0916 (0.1029)
+Accumulating evaluation results...
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.04s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.773
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.950
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.916
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.760
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.778
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.060
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.553
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.814
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.812
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.815
+IoU metric: segm
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+<coco_eval.CocoEvaluator at 0x7f4fdc91f358>
